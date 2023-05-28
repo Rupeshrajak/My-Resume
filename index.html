@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Resume Webpage</title>
+		<link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+			integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<script defer src="script.js"></script>
+		<script defer src="skills.js"></script>
+		<!-- <script defer src="scroll-progress.js"></script> -->
+		<script defer src="scroll-progress-count.js"></script>
+	</head>
+	<body>
+		<div id="scroll-progress-count">
+			<span><span id="scrolled">0</span>% Viewed</span>
+		</div>
+		<div class="scroll-progress">
+			<div class="scroll-progress-bar"></div>
+		</div>
+		<header id="body-header">
+			<nav>
+				<div class="dropdown-menu text-right">
+					<div class="bars">
+						<i class="fas fa-bars"></i>
+					</div>
+					<div class="dropdown-list nav-menu">
+						<ul class="no-list-style">
+							<li>
+								<a href="#"> Home </a>
+							</li>
+							<li>
+								<a href="#about"> About </a>
+							</li>
+							<li>
+								<a href="#skills"> Skills </a>
+							</li>
+							<li>
+								<a href="#experience">Experience</a>
+							</li>
+							<li>
+								<a href="#education">Education</a>
+							</li>
+							<li>
+								<a href="#portfolio">Portfolio</a>
+							</li>
+							<li>
+								<a href="#contact">Contact</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<ul class="no-list-style horizontal-list text-center nav-menu">
+					<li>
+						<a href="#"> Home </a>
+					</li>
+					<li>
+						<a href="#about"> About </a>
+					</li>
+					<li>
+						<a href="#skills"> Skills </a>
+					</li>
+					<li>
+						<a href="#experience">Experience</a>
+					</li>
+					<li>
+						<a href="#education">Education</a>
+					</li>
+					<li>
+						<a href="#portfolio">Portfolio</a>
+					</li>
+					<li>
+						<a href="#contact">Contact</a>
+					</li>
+				</ul>
+			</nav>
+
+			<div id="name-social-container">
+				<div class="text-center">
+					<h1 id="my-name">Rupesh Rajak</h1>
+				</div>
+				<div>
+					<ul
+						class="no-list-style horizontal-list text-center social-icons"
+					>
+						<li>
+							<a href="https://www.linkedin.com/in/rupesh-rajak-8520b5142">
+								<i class="fab fa-linkedin-in"></i>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<i class="fab fa-stack-overflow"></i>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<i class="fab fa-google-plus-g"></i>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<i class="fab fa-facebook-f"></i>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<i class="fab fa-quora"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</header>
+		<main>
+			<section id="about">
+				<div id="my-image">
+					<img
+						src="https://media.licdn.com/dms/image/D4D03AQEvsh9QAAzt_w/profile-displayphoto-shrink_800_800/0/1683470293059?e=2147483647&v=beta&t=FMeKJtdxEPLNhMwQoiH2SwpiDd_ZdgazZwDlrwLR9LY"
+					/>
+				</div>
+
+				<div id="about-para">
+					<p>
+						Passionate software engineer with 7 months of experience specializing in mobile application development. Skilled in Flutter, React Native, HTML, CSS, JavaScript, TypeScript, Dart, and Java. Strong problem-solving abilities and a collaborative mindset, dedicated to delivering high-quality code and exceptional user experiences. Excited to contribute to innovative projects and continue expanding knowledge in emerging technologies.
+					</p>
+				</div>
+			</section>
+
+			<section id="skills">
+				<h1 class="section-heading mb75px">
+					<span>
+						<i class="fas fa-chalkboard-teacher"></i>
+					</span>
+					<span> SKILLS </span>
+				</h1>
+
+				<div class="skills-display">
+					<div class="skill-progress">
+						<div class="eighty-five-percent mb-orange" data-bar-width="80">
+							<div class="skill-name">
+								<span> Flutter </span>
+							</div>
+						</div>
+					</div>
+					<div class="skill-progress">
+						<div class="fifty-percent mb-light-purple" data-bar-width="80">
+							<div class="skill-name">
+								<span> Dart </span>
+							</div>
+						</div>
+					</div>
+					<div class="skill-progress">
+						<div class="fifty-percent mb-teal" data-bar-width="60">
+							<div class="skill-name">
+								<span> React-Native </span>
+							</div>
+						</div>
+					</div>
+					<div class="skill-progress">
+						<div class="fifty-percent mb-blue" data-bar-width="60">
+							<div class="skill-name">
+								<span> Java </span>
+							</div>
+						</div>
+					</div>
+					<div class="skill-progress">
+						<div
+							class="eighty-five-percent mb-teal"
+							data-bar-width="85"
+						>
+							<div class="skill-name">
+								<span> HTML </span>
+							</div>
+						</div>
+					</div>
+					<div class="skill-progress">
+						<div
+							class="eighty-percent mb-orange"
+							data-bar-width="85"
+						>
+							<div class="skill-name">
+								<span> CSS </span>
+							</div>
+						</div>
+					</div>
+					<div class="skill-progress">
+						<div class="fifty-percent mb-blue" data-bar-width="55">
+							<div class="skill-name">
+								<span> Javascript </span>
+							</div>
+						</div>
+					</div>
+					<div class="skill-progress">
+						<div class="fifty-percent mb-light-purple" data-bar-width="55">
+							<div class="skill-name">
+								<span> React </span>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</section>
+
+			<section id="experience">
+				<h1 class="section-heading mb75px">
+					<span>
+						<i class="fas fa-briefcase"></i>
+					</span>
+					<span> Work Experience </span>
+				</h1>
+
+				<div class="timeline">
+					<div class="timeline-box">
+						<div class="timeline-container">
+							<div class="timeline-logo">
+								<img
+									src="https://media.licdn.com/dms/image/C510BAQE0CRR7T1jyig/company-logo_200_200/0/1573751007470?e=2147483647&v=beta&t=bhjgO-LJUlpHr_G2GMLHJq_0ZAJGRMRZhfI6IxhmHa4"
+								/>
+							</div>
+							<h3 class="experience-designation m0 m-blue">
+								Jr. Software Engineer
+							</h3>
+							<h4 class="experience-company-name">LOGIMONK Technologies</h4>
+							<h5 class="experience-duration m0">
+								Nov- 2022 - Present
+							</h5>
+
+							<p class="experience-description text-justify">
+								<mark class="highlight">Flutter Framework:</mark> Proficiency in Flutter, including knowledge of its core concepts, widgets, and architecture. Ability to build efficient and responsive user interfaces using Flutter..<br>
+								<mark class="highlight">Dart Programming:</mark> Strong understanding of the Dart programming language, which is the primary language used in Flutter development. Familiarity with Dart features, syntax, and best practices..<br>
+								<mark class="highlight">API Integration:</mark> Proficiency in integrating RESTful APIs, web services, and third-party libraries into Flutter applications..<br>
+								<mark class="highlight">State Management:</mark> Familiarity with state management techniques in Flutter, such as Provider, Bloc, or MobX, to efficiently manage the application state and maintain data consistency..<br>
+							</p>
+						</div>
+					</div>
+
+					<div class="timeline-box right">
+						<div class="timeline-container">
+							<div class="timeline-logo">
+								<img
+									src="https://asset.brandfetch.io/idQVGbrvGL/idFrWdCkB5.png?updated=1681732628908"
+								/>
+							</div>
+							<h3 class="experience-designation m0 m-blue">
+								    Software Engineer Trainee
+							</h3>
+							<h4 class="experience-company-name">Coding Ninjas</h4>
+							<h5 class="experience-duration m0">
+								July-2022 - May-2023
+							</h5>
+							<p class="experience-description text-justify">
+								<mark class="highlight">Front-end Development:</mark> Proficiency in HTML, CSS, and JavaScript for creating and styling web pages.<br>
+								<mark class="highlight">JavaScript Frameworks:</mark> Familiarity with modern JavaScript frameworks like React, Angular, or Vue.js.<br>
+								<mark class="highlight">Databases and SQL:</mark> Understanding of database management systems and ability to write SQL queries.<br>
+								<mark class="highlight">RESTful APIs:</mark> Experience in designing and implementing APIs for client-server communication.<br>
+								<mark class="highlight">Testing and Debugging:</mark> Understanding of software testing principles and debugging techniques<br>
+								<mark class="highlight">Version Control:</mark> Proficiency in using Git for code versioning and collaboration.<br>
+
+							</p>
+						</div>
+					</div>
+
+
+					<div id="timeline-divider">
+						<div class="timeline-traveller">
+							<div>
+								<i class="fas fa-plane"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="education">
+				<h1 class="section-heading mb75px">
+					<span>
+						<i class="fas fa-graduation-cap"></i>
+					</span>
+					<span> Education </span>
+				</h1>
+
+				<div class="timeline">
+					<div class="timeline-box left">
+						<div class="timeline-container">
+							
+							<h3 class="experience-designation m0 m-blue">Bechelor Of Engineering</h3>
+							<h4 class="experience-company-name">Global Engineering Collage</h4>
+							<h5 class="experience-duration m0">
+								Electronics and comminication engineering
+							</h5>
+							<h5 class="experience-duration m0">
+								2016 -  2020
+							</h5>
+                            <h5 class="experience-duration m0">
+								Scrore - 7.6 CGPA
+							</h5>
+							
+						</div>
+					</div>
+
+					<div class="timeline-box right">
+						<div class="timeline-container">
+							
+							<h3 class="experience-designation m0 m-blue">Higher Secondary </h3>
+							<h4 class="experience-company-name">Madhya Pradesh Board Of Secondary Education, Bhopal</h4>
+							<h5 class="experience-duration m0">
+								2015 - 2016
+							</h5>
+							<h5 class="experience-duration m0">
+								Scrore - 88%
+							</h5>
+							
+						</div>
+					</div>
+
+					<div class="timeline-box left">
+						<div class="timeline-container">
+							
+							<h3 class="experience-designation m0 m-blue">High School</h3>
+							<h4 class="experience-company-name">       Madhya Pradesh Board Of Secondary Education, Bhopal</h4>
+							<h5 class="experience-duration m0">
+								2014 - 2016
+							</h5>
+
+							
+						</div>
+					</div>
+
+					<div id="timeline-divider">
+						<div class="timeline-traveller">
+							<div>
+								<i class="fas fa-car-side"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="portfolio">
+				<h1 class="section-heading mb75px">
+					<span>
+						<i class="fas fa-th-list"></i>
+					</span>
+					<span> Portfolio </span>
+				</h1>
+
+				<div id="portfolio-container">
+					<div class="portfolio-image-container">
+						<img
+							src="https://play-lh.googleusercontent.com/xRVw3VXJYlwAvYA6P7Sg6ltN-3RWPBsa90ttJSelm73nnL6ecqNnEX531l9O93o99Xk=w600-h300-pc0xffffff-pd"
+						/>
+						<div class="portfolio-details">
+							<p>"Octave HI" is a mobile application built using the Flutter framework</p>
+						</div>
+					</div>
+					<div class="portfolio-image-container">
+						<img
+							src="https://media.licdn.com/dms/image/C510BAQE0CRR7T1jyig/company-logo_200_200/0/1573751007470?e=2147483647&v=beta&t=bhjgO-LJUlpHr_G2GMLHJq_0ZAJGRMRZhfI6IxhmHa4"
+						/>
+						<div class="portfolio-details">
+							<p>"HRMS" is a mobile application built using the React-Native</p>
+						</div>
+					</div>
+					<div class="portfolio-image-container">
+						<img
+							src="https://foolishdeveloper.com/wp-content/uploads/2023/01/Alarm-Clock-in-HTML-CSS-JavaScript.webp"
+						/>
+						<div class="portfolio-details">
+							<p>Alark-clock using HTML,CSS and JavaScript</p>
+						</div>
+					</div>
+					
+				</div>
+			</section>
+
+			<section id="contact">
+				<h1 class="section-heading mb50px">
+					<span>
+						<i class="far fa-address-card"></i>
+					</span>
+					<span> Contact </span>
+				</h1>
+				<div id="contact-container">
+					<div id="contact-form-container">
+						<form id="contact-form">
+							<input
+								id="input-name"
+								name="name"
+								type="text"
+								placeholder="Your Name"
+							/>
+							<input
+								id="input-email"
+								name="input-email"
+								type="text"
+								required
+								placeholder="Your Email"
+							/>
+							<textarea
+								id="input-message"
+								name="input-message"
+								rows="2"
+								cols="40"
+								placeholder="Message"
+							></textarea>
+							<button class="sub-btn" type="submit">SEND MESSAGE</button>
+						</form>
+					</div>
+					<div id="my-details-container">
+						<h3>Get In touch</h3>
+						<p>
+							We value your input! Connect with us for any questions, suggestions, or collaboration opportunities.
+						</p>
+
+						<h3>My Address</h3>
+						<div class="my-details-info-container">
+							<i class="fas fa-map-marker-alt"></i>
+							<span>Jabalpur, Madhya Pradesh, India</span>
+						</div>
+						<div class="my-details-info-container">
+							<i class="fas fa-mobile-alt"></i>
+							<span>+91 9516687164</span>
+						</div>
+						<div class="my-details-info-container">
+							<i class="far fa-envelope"></i>
+							<span>Rupeshrajak767@gmail.com</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="text-center social-icons">
+					<ul class="no-list-style horizontal-list">
+						<li>
+							<a href="https://www.linkedin.com/in/rupesh-rajak-8520b5142">
+								<i class="fab fa-linkedin-in"></i>
+							</a>
+						</li>
+
+						<li>
+							<a href="https://stackoverflow.com" target="_blank">
+								<i class="fab fa-stack-overflow"></i>
+							</a>
+						</li>
+
+						<li>
+							<a href="https://plus.google.com" target="_blank">
+								<i class="fab fa-google-plus-g"></i>
+							</a>
+						</li>
+
+						<li>
+							<a href="https://www.facebook.com">
+								<i class="fab fa-facebook-f"></i>
+							</a>
+						</li>
+
+						<li>
+							<a href="https://www.quora.com" target="_blank">
+								<i class="fab fa-quora"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</section>
+		</main>
+	</body>
+</html>
